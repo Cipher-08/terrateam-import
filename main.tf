@@ -7,7 +7,7 @@ provider "aws" {
 
 resource "aws_s3_bucket" "terrateam_bucket" {
   # Don't specify the bucket name here
-  acl    = "private"
+ 
 
   tags = {
     name = "terrateam-bucket"
